@@ -1,0 +1,32 @@
+# Environment
+.env
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+
+# Credentials (NEVER commit)
+credentials.json
+token.json
+
+# Vault runtime data (generated, not source-controlled)
+AI_Employee_Vault/Logs/
+AI_Employee_Vault/Needs_Action/
+AI_Employee_Vault/Done/
+AI_Employee_Vault/Inbox/
+AI_Employee_Vault/Plans/
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+
+# IDE
+.vscode/
+.idea/

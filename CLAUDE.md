@@ -208,3 +208,10 @@ Wait for consent; never auto-create ADRs. Group related decisions (stacks, authe
 
 ## Code Standards
 See `.specify/memory/constitution.md` for code quality, testing, performance, security, and architecture principles.
+
+## Active Technologies
+- Python 3.13+ + google-auth, google-auth-oauthlib, google-api-python-client, python-dotenv, tenacity (001-bronze-foundation)
+- Obsidian-compatible Markdown vault (file system) (001-bronze-foundation)
+
+## Recent Changes
+- 001-bronze-foundation: Added Python 3.13+ + google-auth, google-auth-oauthlib, google-api-python-client, python-dotenv, tenacity
